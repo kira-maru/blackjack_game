@@ -13,7 +13,7 @@ score_computer = 0
     
 
 def first_deal(score_player, score_computer):
-    """Function that deals 2 cards for player and PC; returns score and type of cards drew as lists."""
+    """Function that deals 2 cards for player and PC; returns score and type of cards drawn as lists."""
     cards_player = []
     cards_computer = []
     for deal in range(2):
